@@ -1,0 +1,8 @@
+<div class="container">
+    <div class="col-md-12 list-group">
+            <app-article-item 
+            style="padding-top: 10px;" 
+            *ngFor="let looper of articleList"
+            [article] = "looper"></app-article-item>
+    </div>
+</div>

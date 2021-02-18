@@ -1,0 +1,19 @@
+<div class="container">
+    <a href="#" class="list-group-item list-group-item-action flex-column" [routerLink]="['/detail', article.title]" (click)="onSelected(article)">
+    <!--(click)="onSelected($event)">  align-items-start active">-->
+    <div class="row"> <!--justify-content-between">-->
+        <div class="col-md-10">
+            <h5>{{article.title}}</h5>
+        </div>
+        <div class="col-md-2">
+            <small>{{article.date}}</small>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p class="mb-1 text-truncate" >{{article.content}}</p>
+        </div>
+    </div>
+    <!-- <small>Donec id elit non mi porta.</small> -->
+</a>
+</div>

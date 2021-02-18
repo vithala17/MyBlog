@@ -1,0 +1,15 @@
+<!-- <app-create-article></app-create-article> -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <form [formGroup]="editorForm" (ngSubmit)="onSubmit()">
+                <div class="form-group">
+                    <label for="editor"></label>
+                    <quill-editor [style]="" formControlName="editor"></quill-editor>
+                </div>
+                <button class="btn btn-primary mt-5">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
