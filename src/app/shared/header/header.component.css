@@ -1,0 +1,17 @@
+.header{
+    left: 10%;
+    top: 10%;
+    /* margin:25px auto 15px auto; */
+    width: 20%;
+    background-color: #346fcf;
+    color: white;
+    text-align: left;
+    font-size: x-large;
+}
+
+.line-seperator-thick{
+    /* border-bottom: solid 1px #346fcf; */
+    /* clear:both; */
+    border-top: 5px solid #3491cf;
+    border-radius: 5px;
+}

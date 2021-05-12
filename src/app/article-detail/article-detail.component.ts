@@ -4,11 +4,12 @@ import { Article } from '../models/article.model';
 @Component({
   selector: 'app-article-detail',
   templateUrl: './article-detail.component.html',
-  styleUrls: ['./article-detail.component.scss']
+  styleUrls: ['./article-detail.component.css']
 })
 export class ArticleDetailComponent implements OnInit {
-  @Input() article : Article;
 
+  @Input() article : Article;
+  
   constructor() { }
 
   ngOnInit(): void {
